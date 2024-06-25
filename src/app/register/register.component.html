@@ -1,0 +1,36 @@
+<app-navs></app-navs>
+
+
+<div class="Form">
+    <h2>Register</h2>
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Email</mat-label>
+      <input type="email" matInput ="emailFormControl" >
+            </mat-form-field>
+        </form>
+
+<br>
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Phone number</mat-label>
+      <span matTextPrefix>+263 &nbsp;</span>
+      <input type="+263" matInput placeholder="">
+    </mat-form-field>
+  </form>
+  <br>
+  <mat-form-field >
+    <mat-label>Password</mat-label>
+        <input type="Password" matInput placeholder="">
+</mat-form-field>
+<br>
+<section class="example-section">
+    <mat-checkbox class="example-margin">Agree to terms and conditions</mat-checkbox>
+  </section>
+  <br>
+  <div class="example-button-row">
+    <button routerLink="/login"mat-raised-button>Login</button> &nbsp;
+    <button routerLink="/login"mat-raised-button color="accent">Register</button>
+    </div>
+</div>
+    

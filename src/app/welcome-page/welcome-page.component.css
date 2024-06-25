@@ -1,0 +1,36 @@
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/images/use1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .centered-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .buttons {
+    position: fixed;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
